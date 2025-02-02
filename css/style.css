@@ -61,6 +61,7 @@ img {
  Padding of 20px on all sides
 A 3px solid white border on all sides.*/
 div{
+    min-height: 125px;
     padding: 20px;
     border: 3px solid #FFFFFF;
 }
