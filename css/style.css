@@ -9,11 +9,10 @@ Black background (use hexadecimal values)
 White font (use hexadecimal values)
 Margin of 20px on the top and sides.  None on the bottom.*/
 body {
-    font-family: Arial, Verdana, sans-serif;
+    font-family: Arial, Verdana;
     background-color: #000000;
     color: #FFFFFF;
     margin: 20px 20px 0px 20px;
-    
 }
 
 /*Style the h1 heading with:
@@ -87,8 +86,9 @@ A  border of 2px on the bottom and 5px on the left;*/
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    /* border-bottom: 2px;
+    border-left: 5px; */
+    border-width: 0 0 2px 5px;
 }
 
 /*The blue div has the following styles 
@@ -102,8 +102,9 @@ Use #C4C4C4 for the heading and paragraph text*/
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    /* border-right: 5px;
+    border-top: 2px; */
+    border-width: 2px 5px 0 0;
 }
 
 .blue h2, .blue p {
@@ -122,8 +123,9 @@ Use #707070 for the paragraph text*/
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    /* border-bottom: 2px;
+    border-left: 5px; */
+    border-width: 0 0 2px 5px;
 }
 
 .yellow p {
@@ -139,8 +141,9 @@ A  border of 5px on the right and 2px on the top;*/
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    /* border-right: 5px;
+    border-top: 2px; */
+    border-width: 2px 5px 0 0;
 }
 
 
